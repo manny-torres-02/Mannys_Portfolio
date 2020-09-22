@@ -4,14 +4,18 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-color:#B7B5b3;
 }
+
+/* NavBar  */
 #navbar {
   position:fixed;
 }
+
 nav {
   width:100%;
   height:50px;
   background-color:#BD2031;
 }
+
 ul {
   margin:0;
   list-style-type: none;
@@ -21,8 +25,8 @@ ul {
 
 a {
    text-decoration:none;
-
 }
+
 li{
   color:#FFFFFF;
 }
@@ -39,10 +43,18 @@ a li:hover{
 }
 #welcome-section{
   display:flex;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   height:100vh;
   Background-color:#E5E7E6
+}
+
+.profile-image {
+  height: 400px;
+  width:400px;
+  border-radius: 50%;
+  
 }
 
 #projects{
@@ -54,7 +66,7 @@ a li:hover{
   background-color:#B7B5b3;
 }
 
-img {
+.project-image {
   margin:1.1em;
   height:250px;
   width:250px;
